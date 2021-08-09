@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+/* .tiltleee
+{
+  display:flex;
+  flex-direction: row;
+  width:33%;
+  justify-content: center;
+}
+.column
+{
+  display:flex;
+  flex-direction: row;
+  width:50%;
+} */
+.main {
+  color: black;
+  /* overflow-x:hidden; */
+  margin:auto;
+}
+.title1{
+  line-height:0px !important;
+}
+
+.icon{
+  float:left;
+  width:100vh;
+}
+.textsss span{
+  font-size:100%;
+  font-weight :550;
+  width:100%;
+  text-align:center;
+  margin:auto;
+  line-height: 0% !important;
+}
+.cd{
+  background-color: #F5F8FF !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius:10px !important;
+position:relative;
+padding:2rem;
+
+}
+.apply{
+  position:absolute;
+  bottom:0;
+  right:1rem;
+  border-radius:0 0 10px 0 !important;
+  background-color: #f4b44b !important;
+  border-color: #f4b44b  !important;
+  color:black !important;
+  font-weight:500 !important;
+  font-size:2vh !important;
+}
+.description{
+  font-size:2.5vh;
+  color: #304796;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+}
+.descbody{
+  font-size:2vh;
+  font-family: "Ubuntu";
+}
+.companyname{
+  font-size:2.5vh;
+  color: #304796;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+}
+.readmorelink, .readmorelink:hover{
+  color:#f4b44b;
+  font-weight:500;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+.icons{
+  width:100%;
+}
+.icon{
+  width:100%;
+}
+.textcolumn
+{
+  line-height:1.3rem;
+  overflow-y: hidden;
+}
+@media only screen and (max-width:512px){
+.textsss{
+  font-size:64.5%;
+  line-height:0 !important;
+   
+}
+.textcolumn{
+  line-height:1.1rem;
+  overflow-x:hidden;
+}
+.icon{
+  size:20;
+}
+
+.cd{
+  height:10%;
+}
+
+}
+@media only screen and (max-width:370px){
+  .textsss{
+    font-size:53%;
+   
+  }
+  
+}

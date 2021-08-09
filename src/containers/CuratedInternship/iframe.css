@@ -1,0 +1,19 @@
+/* IFRAME START */
+  .iframe {
+    padding-top: 6px;
+    background-color: rgb(195, 195, 195);
+  }
+  /* IFRAME END */
+  .youtube{
+    padding: 15px;
+    background-color: white;
+  }
+  
+  .loader {
+    margin-top: 50;;
+   background:  #fff
+     url("../loader/loader.gif") no-repeat 
+     50% 50% !important;
+  
+  }
+  /* IFRAME END */ 

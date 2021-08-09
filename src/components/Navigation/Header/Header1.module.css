@@ -1,0 +1,42 @@
+.Toolbar {
+  height: 56px;
+  width: 100%;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  background-color: white;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+  box-shadow: 2px;
+  box-shadow: 0 14px 8px -10px #787878;
+}
+
+.Toolbar nav {
+  height: 100%;
+  margin-left: 40vw;
+}
+
+.Logo {
+  height: 100%;
+}
+
+.searcher {
+  color: black;
+  position: absolute;
+  right: 1rem;
+}
+
+@media (max-width: 499px) {
+  .DesktopOnly {
+    display: none;
+  }
+  .Toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+}

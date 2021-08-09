@@ -1,0 +1,61 @@
+.Getrefered {
+    max-height: 100%;
+    padding-top: 4% 0 2% 0;
+    margin:5px;
+  }
+  .buttonMargin{
+    margin: 0 10px 0;
+  
+  }
+ 
+  .Getreffered-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }  
+  
+  iframe{
+    padding-top: 1px;
+    
+  }
+  
+  .border-iframe{
+    border-style: "border: 3px solid blue";
+  }
+
+  .comp {
+    background-color: #eff3ff;
+    width: 200%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 13px;
+  }
+  .youtube {
+    padding: 15px;
+    background-color: white;
+    width: 1000px;
+  }
+  .size {
+    margin-top: 38px;
+    height: 300px;
+  }
+  .size2 {
+    padding-top: 30px;
+    width: 900px;
+  }
+  @media only screen and (max-width: 1200px) {
+    .size {
+      background-color: lightblue;
+    }
+  }
+  .loader {
+    margin-top: 50;
+    background: #fff url("../loader/loader.gif") no-repeat 50% 50% !important;
+  }

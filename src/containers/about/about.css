@@ -1,0 +1,73 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
+* {
+  box-sizing: border-box;
+}
+
+.videointro
+{
+  align-items: flex-start;
+  background-color: var(--mine-shaft);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 136.43px;
+  margin-top: 45px;
+  min-width: 717px;*/
+  overflow: hidden;
+  margin:auto;
+  text-align:center;
+}
+
+.whatweoffer
+{
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: bold;
+font-size: 3.5vw;
+line-height: 70px;
+text-align: center;
+color: #304796;
+
+}
+.subheading
+{
+  font-family: "Ubuntu";
+font-style: normal;
+font-weight: bold;
+font-size: 3vw;
+line-height: 56px;
+color: #F4B44B;
+}
+.text
+{
+  font-family: "Ubuntu";
+font-style: normal;
+font-weight: normal;
+font-size: 1.5vw;
+line-height: 32px;
+text-align: center;
+color: #717171;
+text-align:center;
+}
+.image
+{
+  text-align:center;
+  width:20%;
+
+}
+.container
+{
+  background-color: #ffffff;
+}
+.mainContainer
+{
+  display: inline-flex;
+  flex-direction: row;
+}
+@media only screen and (max-width:990px)
+{
+  .text{
+    font-size:100%;
+  }
+} 

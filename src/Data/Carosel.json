@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "title":"Shipping Career with Artificial Intelligence",
+        "content":"An efficient AI based hiring Solution",
+        "image":"../assets/images/caroselimg1.jpg"
+    },
+    {
+        "id":"2",
+        "title":"Shipping Career with Machine Learning",
+        "content":"Learn from the best tutors available",
+        "image":"../assets/images/caroselimg2.jpg"
+    },
+    {
+        "id":"3",
+        "title":"Shipping Career with Competetive coding",
+        "content":"Join our competetive coding community",
+        "image":"../assets/images/caroselimg3.jpg"
+    }
+]

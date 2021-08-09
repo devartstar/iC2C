@@ -1,0 +1,21 @@
+div {
+  color: black;
+}
+
+.DesktopOnly {
+  margin-left: 68vw;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  display: flex;
+  margin-top: 10px;
+}
+
+@media (max-width:768px){
+  Navbar{background:red}
+}
+
+@media (min-width:769px){
+  Navbar{background:blue}
+}

@@ -1,0 +1,141 @@
+body {
+  background-color: #eff3ff !important;
+  overflow-x:hidden;
+
+  margin:auto;
+}
+
+.headingPrimary {
+  color: rgb(2, 10, 41);
+  font-size: 3rem;
+}
+.headingSecondary {
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+}
+.mainContainer
+{
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.container {
+  
+  min-height: 100vh;
+  background-color: white;
+  overflow-x: hidden;
+  width:75vw;
+  
+
+}
+.rightContainer
+{
+  /* background-color: white; */
+  border-radius:10px;
+  align-content: center; 
+   overflow-x: hidden; 
+  width:22.5vw;
+  
+  
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+.first {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5vw;
+  line-height: 49px;
+  color: #304796;
+  
+}
+
+.second {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5vw;
+  line-height: 49px;
+  color: #f4b44b;
+  
+}
+.heading {
+  margin-top: 40px;
+  overflow-y:hidden;
+  position:relative;
+}
+.subHeading1{
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+  color: #656565;
+  overflow-y:hidden;
+   
+  position: absolute;
+  left: 29%; 
+}
+
+.subHeading {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+  color: #656565;
+  overflow-y:hidden;
+   
+  position: absolute;
+  left: 35%; 
+  /*margin-left: 30vw;
+  margin-top: 0;*/
+}
+Button.viewmore, Button.viewmore:hover{
+  background-color:#c4c4c4;
+  border-radius:54px !important;
+  color:#000000 !important;
+  border-color:#c4c4c4!important;
+  font-weight:500 !important;
+  width:15%;
+  font-size:2vh;
+  text-decoration:none !important;
+}
+.link{
+  text-decoration:none;
+}
+@media only screen and (max-width: 650px) {
+  
+  .heading {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .heading {
+    margin-top: 10px;
+    
+  }
+  .first, .second{
+    font-size:4vw;
+  }
+  .subHeading,.subHeading1{
+    font-size:3vw;
+  }
+  .viewmore
+  {
+    width:25vw !important;
+  }
+}
+@media only screen and (max-width:768px)
+{
+  .container{
+    width:100vw;
+  }
+  .rightContainer
+  {
+    width:100vw;
+  }
+}

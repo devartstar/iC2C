@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap");
+
+.container-fluid {
+  padding: 2rem;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+.heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5vh;
+  line-height: 41px;
+  color: #304796;
+  overflow-y:hidden;
+}
+.button {
+  text-align: center;
+}
+.buttonb {
+  background-color: #f5c981 !important;
+  border-color: #f5c981 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  font-size:2vh !important;
+}
+.secondsection {
+  margin-top: 50px;
+  overflow-y:hidden;
+}
+.num {
+  display: inline-block;
+  position: relative;
+  
+}
+.numtext {
+  display: inline-block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5vh;
+  line-height: 41px;
+  color: #747474;
+  text-align: center;
+  overflow-y:hidden;
+}
+.address,
+.mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  line-height: 25px;
+  color: #717171;
+}
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.3vh;
+  line-height: 26px;
+  color: #5b76d5;
+}
+ul {
+  list-style: none;
+}
+ul li a,
+ul li a:hover {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  line-height: 26px;
+  color: #656565;
+  text-decoration: none;
+}
+ul li {
+  margin-top: 5px;
+}
+.lastsection {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  line-height: 25px;
+  color: #717171;
+}
+@media only screen and (max-width: 991px) {
+  .secondsection {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+  }
+  .num,
+  .title {
+    margin-top: 20px;
+  }
+  ul {
+    padding-inline-start: 0px;
+  }
+  .heading {
+    margin-top: 10px;
+  }
+}

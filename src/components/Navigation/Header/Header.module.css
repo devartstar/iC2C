@@ -1,0 +1,94 @@
+.Toolbar {
+  height: 56px;
+  width: 100%;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  background-color: white;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+  box-shadow: 2px;
+  box-shadow: 0 14px 8px -10px #787878;
+}
+
+.Toolbar nav p {
+  margin-left: 20px;
+}
+
+.toggle {
+  justify-self: end;
+}
+
+.DesktopOnly {
+  margin-left: 68vw;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.DesktopOnly p {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.b1,
+.b2 {
+  color: white;
+  background-color: rgb(84, 153, 57);
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 30px;
+}
+
+.Logo {
+  height: 100%;
+}
+
+.searcher {
+  color: black;
+  position: absolute;
+  right: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .DesktopOnly {
+    margin-left: 30vw;
+  }
+  .DesktopOnly p {
+    margin-left: 2px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .DesktopOnly {
+    margin-left: 20vw;
+  }
+  .DesktopOnly p {
+    margin-left: 2px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 499px) {
+  .DesktopOnly {
+    display: none;
+  }
+  .Toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .DesktopOnly p {
+    margin-left: 2px;
+    font-size: 12px;
+  }
+}

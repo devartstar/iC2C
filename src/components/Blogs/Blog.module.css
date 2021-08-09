@@ -1,0 +1,49 @@
+.container
+{
+    overflow-x:hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+.container2
+{
+    overflow-x: hidden;
+    margin:auto;
+}
+.title
+{    
+    font-size: 23px;
+    line-height: 26px;
+    color: #4D4D4D;
+    align-items: center;
+    text-align: center;
+    
+}
+.header
+{
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: normal;
+    border-bottom: 1px solid #B0B0B0;
+    position:relative;
+
+}
+.subTitle
+{
+    font-size: 19px;
+    line-height: 22px;
+    color: #585656;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+.body
+{
+    font-family: "Ubuntu";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #625C5C;
+}

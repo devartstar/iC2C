@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+div {
+  color: black;
+  
+}
+
+.image2
+{
+  width:100%;
+  height:auto;
+
+}
+
+.imagebox {
+  position: relative;
+  align-items: center;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagetext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  
+  color: #E4E4E4;
+}
+
+.seemore {
+  background-color: #324897 !important;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 100px !important;
+  color: #000000 !important;
+  font-size: 22px !important;
+  font-weight: normal !important;
+}
+.titlemodal {
+  text-align: center !important;
+  font-size: 20px;
+}
+/* .modalgrid{
+  position: absolute;
+  right:50%;
+  bottom:50%;
+  transform:translateY(-50%); 
+} */
+
+@media only screen and(max-width:512px)
+{
+  .modals{
+    height:20vh;
+  }
+}
